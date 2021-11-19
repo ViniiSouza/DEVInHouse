@@ -1,4 +1,7 @@
-<!--Descrição do exercício-->
+<!--
+    Construa uma página HTML contendo um texto que informa o horário no
+    momento de acesso, no formato “23:59” (HH:mm).
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEV in House</title>
 </head>
-<body>
+<body onload="mostrarHorario()">
 
-
+    <p>Hora local: <span id="horario"></span></p>
     
     <script src="scripts/script.js"></script>
 </body>
