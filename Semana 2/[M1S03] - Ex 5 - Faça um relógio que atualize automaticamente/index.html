@@ -1,4 +1,8 @@
-<!--Descrição do exercício-->
+<!--
+    Construa uma página HTML contendo um texto que informa o horário atual,
+    no formato “23:59”, e que atualize automaticamente o valor,
+    sempre que mudar o horário.
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,10 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEV in House</title>
 </head>
-<body>
+<body onload="atualizarHora()">
 
 
-    
+    <p>Hora atual: <span id="resultado"></span></p>
     <script src="scripts/script.js"></script>
 </body>
 </html>
