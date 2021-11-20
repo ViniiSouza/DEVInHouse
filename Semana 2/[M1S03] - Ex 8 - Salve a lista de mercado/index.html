@@ -1,4 +1,8 @@
-<!--Descrição do exercício-->
+<!--
+    Utilizando a mesma página do exercício anterior (exercício 7),
+    adicione um novo botão “Salvar lista”. Quando o usuário clicar nesse botão,
+    a lista de itens de mercado deve ser salva no Local Storage do navegador.
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,10 +10,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEV in House</title>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
+    <div id="campo-adicionar">
+        <label>Item a adicionar:</label>
+        <input type="text" id="textoAdicionar">
+        <button onclick="adicionarItem()">Adicionar</button>
+    </div>
 
-
+    <ul id="lista-itens"></ul>
+    
+    <select style="margin: auto;" name="Teste" id="lista-select">
+    <option>Selecione um item...</option>
+    </select>
     
     <script src="scripts/script.js"></script>
 </body>
