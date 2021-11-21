@@ -1,5 +1,4 @@
 //
-
 function adicionarItem(){
     var textoAdicionar = document.getElementById('textoAdicionar').value;
     if(textoAdicionar.length < 1){
@@ -21,7 +20,14 @@ function criarItemLista(texto){
     document.getElementById('lista-select').appendChild(itemSelect);
 
 }   
-
 function salvarItens(){
-
+var listaValores = [];
+var listaItens = document.querySelectorAll('option');
+for(let item of listaItens){
+    listaValores.push({
+        'item': item.textContent
+    })
+}
+    console.log(listaValores.toString());
+    localStorage.setItem('Itens', JSON.stringify(listaValores));
 }
