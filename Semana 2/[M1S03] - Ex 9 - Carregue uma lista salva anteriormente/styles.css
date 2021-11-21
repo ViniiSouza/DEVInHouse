@@ -1,0 +1,40 @@
+#campo-adicionar{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+#campo-adicionar input{
+    display: flexbox;
+    width: 80%;
+    align-items: center;
+}
+
+#campo-adicionar button{
+    background-color: white;
+    border:1px solid black;
+    margin: 10px;
+    font-size: large;
+}
+
+.item-lista{
+    font-size: 20px;
+    font-family: Calibri;
+    text-align: center;
+    list-style: none;
+    border: 1px solid black;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#lista-select{
+    font-size: large;
+    
+}
+.centralizado{
+    margin:0 auto;
+    text-align: center;
+}
