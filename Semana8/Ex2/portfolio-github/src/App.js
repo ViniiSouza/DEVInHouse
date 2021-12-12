@@ -4,7 +4,7 @@ import { Summary } from './components/Summary/Summary';
 function App() {
   return (
     <div className="App">
-      <h1>Olá, portfóliAAo!</h1>
+      <h1>Olá, portfólio!</h1>
       <Summary />
     </div>
   );
