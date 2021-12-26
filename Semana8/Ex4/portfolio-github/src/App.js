@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Olá, portfólio!</h1>
-      <Summary />
+      <Summary imgSrc="https://github.com/ViniiSouza.png" altText="Imagem perfil Vinícius"/>
       <Repository/>
     </div>
   );
