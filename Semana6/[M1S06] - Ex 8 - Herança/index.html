@@ -1,18 +1,30 @@
 <!--
-    Descrição do exercício
+    A empresa QueroQueijo gostaria de cadastrar todos os seus funcionários e através
+    de uma única função calcular o quanto ela gasta em sua folha de pagamento.
+    Em um novo arquivo ‘Funcionario.js’ importe a classe Pessoa (do arquivo ‘Pessoa.js’)
+    e crie a classe Funcionario que herda (extends) os atributos de pessoa e também possui
+    mais os os atributos: ‘cargo’ e ‘salario’ (ambos públicos). Faça com que a classe
+    Funcionario seja exportada como padrão. Em outro arquivo (‘app.js’), importe a classe
+    Funcionario e crie um array (vetor) com três instâncias de Funcionario. Após, crie uma
+    função ‘calcularSalarios’ que receba um vetor de objetos da classe Funcionario (um array
+    de funcionários) e retorne a soma de todos os salários.
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DEV in House</title>
-        
-    </head>
-    <body>
 
-        
-        <script src="scripts/script.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+
+</head>
+
+<body>
+
+    <script type="module" src="scripts/app.js"></script>
+    <script type="module" src="scripts/Pessoa.js"></script>
+    <script type="module" src="scripts/Funcionario.js"></script>
+</body>
+
 </html>
