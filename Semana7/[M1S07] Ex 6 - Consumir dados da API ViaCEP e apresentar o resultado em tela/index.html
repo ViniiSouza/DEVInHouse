@@ -1,0 +1,47 @@
+<!--
+    Desenvolva uma função em Javascript para consultar CEP na API ViaCEP. 
+    O endpoint para essa consulta será “https://viacep.com.br/ws/01001000/json”,
+    onde o valor “01001000” deverá ser substituído pelo CEP no qual você deseja consultar.
+    Para a requisição, você pode utilizar “fetch”, com o encadeamento “then” e “catch” de promises. 
+    O resultado de cada consulta de CEP deverá ser apresentado em tela, utilizando o código
+    HTML. Para isso, aplique todos os conceitos aprendidos sobre DOM e CSS.
+    Para mais informações sobre a API, consulte: https://viacep.com.br
+-->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev In House</title>
+</head>
+<body>
+    <h1>Digite o CEP: </h1>
+
+    <input type="text" id="cep">
+    <button id="button">Buscar</button>
+
+    <div id="info-cep" style="display: none;">
+        <p id="rua">Rua</p>
+        <p id="bairro">Bairro</p>
+        <p id="cidade-estado">Cidade - UF</p>
+    </div>
+    
+<script src="scripts/app.js" type="module"></script>
+<style>
+    html {
+        font-family: Calibri;
+        text-align: center;
+    }
+    #info-cep {
+        margin-top: 15px;
+        border: 2px solid black;
+        max-width: fit-content;
+        margin: 15px auto;
+    }
+    #info-cep > p {
+        font-size: 25px
+    }
+</style>
+</body>
+</html>
