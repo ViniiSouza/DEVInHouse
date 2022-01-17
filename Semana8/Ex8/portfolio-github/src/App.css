@@ -8,14 +8,24 @@
 }
 
 #repo-list {
-  display:inline-block;
+  text-align: center;
 }
 .repo-item {
-  display:inline-block;
+  display:block;
   border: 2px solid black;
-  height: 80px;
-  width: 120px;
-  margin: 10px;
+  height: 90px;
+  width: 60vw;
+  margin: 10px auto;
+}
+
+.repo-item-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.repo-item-description {
+  margin: 0;
 }
 
 #subtitle {
