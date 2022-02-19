@@ -1,0 +1,30 @@
+#repo-title {
+    font-size: 22px;
+    border-top: 1px solid black;
+}
+
+.repo-featured-item {
+    display: block;
+    border: 2px solid gold;
+    height: 90px;
+    width: 60vw;
+    margin: 10px auto;
+}
+
+.repo-item {
+    display: block;
+    border: 2px solid black;
+    height: 90px;
+    width: 60vw;
+    margin: 10px auto;
+}
+
+.repo-item-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.repo-item-description {
+    margin: 0;
+}

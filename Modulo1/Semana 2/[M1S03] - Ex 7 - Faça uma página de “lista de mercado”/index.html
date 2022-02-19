@@ -1,0 +1,34 @@
+<!--
+    Sua página deve possibilitar ao usuário inserir itens em uma lista e 
+    exibir a lista atualizada à medida que forem sendo adicionados novos itens.
+    A página deve conter um rótulo (<label>) “Item a adicionar:” seguido de um
+    campo de texto onde o usuário possa digitar o item. Deve conter
+    também um botão “Adicionar”, que no momento do clique do usuário deve inserir o
+    item digitado na lista. Se o texto estiver vazio (length), deve mostrar uma
+    mensagem ao usuário solicitando a inserção de algum texto.
+    A página também deve conter uma lista (<select>), que exibirá os
+    itens adicionados pelo usuário.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="campo-adicionar">
+        <label>Item a adicionar:</label>
+        <input type="text" id="textoAdicionar">
+        <button onclick="adicionarItem()">Adicionar</button>
+    </div>
+
+    <ul id="lista-itens"></ul>
+    
+    <select style="margin: auto;" name="Teste" id="lista-select"></select>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>

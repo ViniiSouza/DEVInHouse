@@ -1,0 +1,46 @@
+<!--
+    A nova classe Cliente possui os seguintes atributos: nome, cpf, endereco, numeroDoCelular.
+    O parâmetro endereco deve ser uma instância da classe Endereco. No método constructor() da
+    classe cliente, verifique se o parâmetro endereco é uma instância da classe Endereco
+    (utilize instanceof), verifique também se os parâmetros restantes são todos do tipo 'string'.
+    Caso algum parâmetro estiver incorreto, lance uma exceção (throw).
+    Dica: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/instanceof
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+    <script type="module" src="scripts/script.js"></script>
+    <script type="module" src="scripts/Endereco.js"></script>
+</head>
+
+<body>
+
+    <section>
+        <div>
+            <p>Informações básicas</p>
+            <form id="formulario-cliente">
+                <input type="text" placeholder="Nome" id="nome-cliente">
+                <input type="text" placeholder="CPF" id="cpf-cliente">
+                <input type="text" placeholder="Número de celular" id="numero-cliente">
+            </form>
+            <p>Preencha o endereço do cliente</p>
+            <form id="formulario-endereco">
+                <input type="text" placeholder="Logradouro" id="logradouro">
+                <input type="text" placeholder="Número" id="numero">
+                <input type="text" placeholder="Cidade" id="cidade">
+                <input type="text" placeholder="Estado" id="estado">
+                <input type="text" placeholder="País" id="pais">
+                <input type="text" placeholder="CEP" id="cep">
+                <button type="button" id="save-button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

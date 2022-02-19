@@ -1,0 +1,12 @@
+#repo-title {
+    font-size: 22px;
+    border-top: 1px solid black;
+}
+
+.repo-featured-item {
+    display: block;
+    border: 2px solid gold;
+    height: 90px;
+    width: 60vw;
+    margin: 10px auto;
+}

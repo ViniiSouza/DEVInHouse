@@ -1,0 +1,65 @@
+<!--
+    Dado que uma conta de cliente nunca pode ser negativa, e uma transferência ou
+    depósito não pode ser maior que 300 reais. Faça essa validação nos métodos transferencia
+    e deposito da classe Transacao, exiba um alert na tela se as condições necessárias para a
+    transação não forem atendidas e não atualize o saldo das contas. Adicione um método
+    executarTransacao() que, ao ser invocado, verifica se ambos os atributos conta e
+    contaTransferencia foram informados, se sim, executa o método transferencia() senão,
+    se tiver apenas o atributo conta populado, executa o método deposito().
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+    <script type="module" src="scripts/script.js"></script>
+</head>
+
+<body>
+
+    <section>
+        <div>
+            <p>Informações básicas</p>
+            <form id="formulario-cliente">
+                <input type="text" placeholder="Nome" id="nome-cliente">
+                <input type="text" placeholder="CPF" id="cpf-cliente">
+                <input type="text" placeholder="Número de celular" id="numero-cliente">
+            </form>
+            <p>Preencha o endereço do cliente</p>
+            <form id="formulario-endereco">
+                <input type="text" placeholder="Logradouro" id="logradouro">
+                <input type="text" placeholder="Número" id="numero">
+                <input type="text" placeholder="Cidade" id="cidade">
+                <input type="text" placeholder="Estado" id="estado">
+                <input type="text" placeholder="País" id="pais">
+                <input type="text" placeholder="CEP" id="cep">
+            </form>
+            <p>Preencha os dados da conta do cliente</p>
+            <form id="formulario-conta">
+                <input type="text" placeholder="Número da conta" id="numero-conta">
+                <input type="number" placeholder="Saldo da conta" id="saldo-conta">
+            </form>
+            <button type="button" id="save-button">Enviar</button>
+        </div>
+    </section>
+
+    <section>
+        <p>Depósito</p>
+        <input type="number" disabled placeholder="Valor do depósito" id="valor-deposito">
+        <button disabled id="botao-depositar">Depositar</button>
+    </section>
+
+    <section>
+        <p>Transferência</p>
+        <input type="number" disabled placeholder="Valor da transferência" id="valor-transferencia">
+        <input type="number" disabled placeholder="Conta recebedora(opcional)" id="conta-recebedora">
+        <button disabled id="botao-transferir">Transferir</button>
+    </section>
+
+    <div id="mostrar-saldo-conta" style="display: none;">
+        <p>Saldo da conta: R$ <span id="balance-place"></span></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!--
+    Sua página deve conter um texto e uma imagem, ambos representando a estação.
+    Ao carregar a página, baseado na data atual, seu código deve verificar qual a
+    estação atual do ano no hemisfério sul, e deve alterar o texto e a imagem,
+    para que passem a representar a estação correta. Considere:
+    22/12 a 21/03 - Verão; 22/03 a 21/06 - Outono; 22/06 a 21/09 - Inverno;
+    22/09 a 21/12 - Primavera.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV in House</title>
+</head>
+<body>
+    <style>
+        #estacao-imagem{
+            width: 300px;
+        }
+        #estacao-nome{
+            font-family: Calibri;
+        }
+    </style>
+<img id="estacao-imagem">
+<h2 id="estacao-nome"></h2>
+<script src="scripts/script.js"></script>
+</body>
+</html>
