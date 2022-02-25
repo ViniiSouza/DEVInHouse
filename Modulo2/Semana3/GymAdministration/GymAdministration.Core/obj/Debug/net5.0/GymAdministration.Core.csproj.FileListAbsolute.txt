@@ -1,0 +1,12 @@
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\bin\Debug\net5.0\GymAdministration.Core.deps.json
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\bin\Debug\net5.0\GymAdministration.Core.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\bin\Debug\net5.0\ref\GymAdministration.Core.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\bin\Debug\net5.0\GymAdministration.Core.pdb
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.csproj.AssemblyReference.cache
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.AssemblyInfoInputs.cache
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.AssemblyInfo.cs
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.csproj.CoreCompileInputs.cache
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\ref\GymAdministration.Core.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana3\GymAdministration\GymAdministration.Core\obj\Debug\net5.0\GymAdministration.Core.pdb
