@@ -1,0 +1,15 @@
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\Ex5.exe
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\Ex5.deps.json
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\Ex5.runtimeconfig.json
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\Ex5.runtimeconfig.dev.json
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\Ex5.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\ref\Ex5.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\bin\Debug\net5.0\Ex5.pdb
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.AssemblyInfoInputs.cache
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.AssemblyInfo.cs
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.csproj.CoreCompileInputs.cache
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\ref\Ex5.dll
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.pdb
+C:\Users\Vinícius\Documents\Programação\Projetos\DevInHouse\Exercicios\Modulo2\Semana4\Ex5\Ex5\obj\Debug\net5.0\Ex5.genruntimeconfig.cache
