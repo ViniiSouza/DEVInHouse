@@ -1,0 +1,10 @@
+USE Clinica;
+
+CREATE TABLE Paciente(
+Id INT IDENTITY(1,1) PRIMARY KEY,
+RG VARCHAR(15) NOT NULL,
+Nome VARCHAR(200) NOT NULL,
+Data_Nascimento DATETIME NOT NULL,
+Endereco VARCHAR(300),
+IdPlanoSaude INT NULL,
+CONSTRAINT fk_PlanoSaude_Paciente FOREIGN KEY (IdPlanoSaude) REFERENCES PlanoSaude(Id))
