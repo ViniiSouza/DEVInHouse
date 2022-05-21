@@ -1,4 +1,6 @@
-﻿using Ex1.Models;
+﻿using AutoMapper;
+using Ex1.DTOs;
+using Ex1.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ex1.Controllers
@@ -8,16 +10,19 @@ namespace Ex1.Controllers
     public class ProdutoController : ControllerBase
     {
         private readonly Modulo3Semana1Context _context;
+        private readonly IMapper _mapper;
         
-        public ProdutoController(Modulo3Semana1Context context)
+        public ProdutoController(Modulo3Semana1Context context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_context.Produto.ToList());
+            var products = _context.Produto.ToList();
+            return Ok(_mapper.Map<List<ProdutoDTO>>(products));
         }
 
         [HttpGet("{id}")]
@@ -28,13 +33,14 @@ namespace Ex1.Controllers
             {
                 return NotFound();
             }
-            return Ok(produto);
+            return Ok(_mapper.Map<ProdutoDTO>(produto));
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Produto produto)
+        public IActionResult Post([FromBody] ProdutoDTO produto)
         {
-            _context.Produto.Add(produto);
+            var produtoEntity = _mapper.Map<Produto>(produto);
+            _context.Produto.Add(produtoEntity);
             _context.SaveChanges();
             return Ok(new
             {
@@ -44,10 +50,11 @@ namespace Ex1.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put([FromBody] Produto produto, [FromRoute] int id)
+        public IActionResult Put([FromBody] ProdutoDTO produto, [FromRoute] int id)
         {
             produto.Id = id;
-            _context.Produto.Update(produto);
+            var produtoEntity = _mapper.Map<Produto>(produto);
+            _context.Produto.Update(produtoEntity);
             _context.SaveChanges();
             return Ok(new
             {
