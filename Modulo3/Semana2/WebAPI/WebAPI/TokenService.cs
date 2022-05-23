@@ -6,9 +6,9 @@ using System.Text;
 
 namespace RH
 {
-    public class TokenService
+    public static class TokenService
     {
-        public string GerarToken(Funcionario funcionario)
+        public static string GerarToken(Funcionario funcionario)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(Settings.Secret);
