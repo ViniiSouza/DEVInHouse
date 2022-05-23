@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RH.Enums;
 using RH.Models;
 
@@ -10,13 +11,15 @@ namespace RH.Controllers
     {
         [HttpPost]
         [Route("cadastrar-novo-funcionario")]
+        [Authorize(Roles = "administrador")]
         public IActionResult CadastrarNovoFuncionario(Funcionario funcionario)
         {
-            return Created();
+            return StatusCode(201);
         }
 
         [HttpDelete("{id}")]
         [Route("excluir-funcionario")]
+        [Authorize(Roles = "administrador, gerente")]
         public IActionResult ExcluirFuncionario([FromRoute] int id)
         {
             return Accepted();
@@ -24,6 +27,7 @@ namespace RH.Controllers
 
         [HttpDelete("{id}")]
         [Route("excluir-gerente")]
+        [Authorize(Roles = "administrador")]
         public IActionResult ExcluirGerente([FromRoute] int id)
         {
             return Accepted();
@@ -31,6 +35,7 @@ namespace RH.Controllers
 
         [HttpPut]
         [Route("alterar-salario")]
+        [Authorize(Roles = "gerente")]
         public IActionResult AlterarSalario()
         {
             return Ok();
@@ -38,6 +43,7 @@ namespace RH.Controllers
 
         [HttpGet]
         [Route("listar")]
+        [Authorize]
         public IActionResult Listar(Funcionario funcionario)
         {
             // fazer lógica de listagem
